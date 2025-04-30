@@ -1,0 +1,98 @@
+/*Parte do body*/
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: cover;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p2/2810014-light-purple-vector-background-with-bubbles-glitter-abstract-illustration-with-colorful-drops-pattern-for-wallpapers-curtains-vetor.jpg);
+
+}
+/*Inicio*/
+.logo-MTECH{
+    width: 650px;
+}
+.bemvindo{
+    color: white;
+    font-family: fonte1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+}
+.frase1{
+    color: white;
+    font-family: fonte1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*formulario*/
+form{
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    font-family: fonte1;   
+    max-width: 260px; 
+    margin-left: 68px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+::placeholder{
+    font-family: fonte1;
+}
+.enviar{
+    border: 3px solid white;
+    border-radius: 12px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.enviar:hover{
+    box-shadow: 0 0 8px white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    border: 3px solid white;
+    border-radius: 12px;
+    
+}
+/*rodapé*/
+footer{
+    align-items: center;
+    display: flex;
+    font-family: fonte1;
+    font-size: 12px;
+    margin-top: 70px;
+}
+
+.logorodape{
+    width: 100px;    
+    height: auto;
+    align-items: center;
+    
+}
+.logorodape2{
+    width: 254px;
+    
+}
+.rodape-desc{
+    color: white;
+    font-size: 13px;
+
+}
+.local:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+}
+
+
+

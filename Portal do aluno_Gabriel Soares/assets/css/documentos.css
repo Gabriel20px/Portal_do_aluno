@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: left;
+    background: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+/*cabeçalho*/
+header{
+    display: flex;
+    margin-top: 0;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    font-family: fonte1;
+}
+.inicio{
+    margin-left: 750px;
+    font-size: 26px;
+    color: white;
+}
+.inicio:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+}
+/*conteudo - icones*/
+.documentos{
+    margin-top: 70px;
+    font-family: fonte1;
+    font-size: 40px;
+}
+li{
+    margin: 10px;
+    color:black;
+    list-style: none;
+    font-family: fonte1;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.documentos_1{
+    width: 30px;
+    padding: 10px;
+}
+.documentos_2{
+    width: 30px;
+    padding: 10px;
+}
+.documentos_3{
+    width: 30px;
+    padding: 10px;
+}
+.documentos_4{
+    width: 30px;
+    padding: 10px;
+}
+.documentos_5{
+    width: 30px;
+    padding: 10px;
+}
+.documentos_6{
+    width: 30px;
+    padding: 10px;
+}
+.documentos_7{
+    width: 30px;
+    padding: 10px;
+}
+li:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+}
+/*rodape*/
+footer{
+    display: flex;
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+}
+.rodape-desc{
+    font-family: fonte1;
+}
+.logo_lucas{
+    width: 200px;
+    margin-left: 1300px;
+    margin-top: 40px;
+}
+.local{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    width: 240px;
+    color: white;
+}
+.local:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+}
+

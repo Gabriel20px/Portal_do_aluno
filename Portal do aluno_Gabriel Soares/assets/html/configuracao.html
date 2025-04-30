@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuração - Mtech</title>
+    <link rel="stylesheet" href="/assets/css/configuracao.css">
+    <style>
+        @font-face {
+            font-family: fonte1;
+            src: url(/assets/fonts/TT\ Rounds\ Neue\ Trial\ Medium\ Italic.ttf);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>BEM-VINDO</h1>
+        </div>
+        <div class="inicio">
+            <ul> 
+                <li><a href="/assets/html/portal.html">INICIO</a></li>
+            </ul>
+        </div>
+    </header>
+        <h1 class="titulo">Configurações:</h1>
+        <h2>Mudança de E-mail:</h2>
+        <div class="mudança_email">
+        <form onsubmit="return validarFormulario()">
+            <label>E-mail: <input type="email" id="email" placeholder="Digite seu novo email"></label><br><br>
+            <label>Senha: <input type="password" id="senha" placeholder="Digite sua senha"></label><br><br>
+            <botton><a href="/assets/html/configuracao.html" class="enviar">Enviar</a></botton>
+        </div>
+        <h2>Mudança de senha: </h2>
+        <div class="mudança_senha">
+        <form onsubmit="return validarFormulario()">
+            <label>E-mail: <input type="email" id="email" placeholder="Digite seu novo email"></label><br><br>
+            <label>Senha: <input type="password" id="senha" placeholder="Digite sua senha"></label><br><br>
+            <botton"><a href="/assets/html/configuracao.html" class="enviar">Enviar</a></botton>
+        </div>
+    <footer>
+        <div class="rodape-desc">
+            <p>Houve algum problema? Entre em contato conosco!</p>
+            <p>Telefone: +55 61 99753342080 </p>
+            <p class="local">Local: Gama - Setor Leste - DF<a href="https://maps.app.goo.gl/jVRweX7xHP9tXAQF6"></a></p>
+        </div>
+        <div class="logos"> 
+            <img src="/assets/img/logo_proj_lucas01.png" alt="logo" class="logo_lucas">
+        </div>
+    </footer>
+    <script>
+        function validarFormulario() {
+            const email = document.getElementById('email').value;
+            const senha = document.getElementById('senha').value;
+            const mensagemErro = document.getElementById('mensagemErro');
+            mensagemErro.textContent = '';
+            if (!email) {
+                mensagemErro.textContent = 'Por favor, insira seu email.';
+                return false;
+            }
+            if (!senha || senha.length < 6) {
+                mensagemErro.textContent = 'A senha deve ter pelo menos 6 caracteres.';
+                return false;
+            }
+            alert('Formulário enviado com sucesso!');
+            return true;
+        }
+    </script>
+</body>
+</html>

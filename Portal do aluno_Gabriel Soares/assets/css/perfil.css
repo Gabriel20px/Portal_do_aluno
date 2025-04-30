@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: left;
+    background: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+/*cabeçalho*/
+header{
+    display: flex;
+    margin-top: 0;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    font-family: fonte1;
+}
+.inicio{
+    margin-left: 750px;
+    font-size: 26px;
+}
+.inicio:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+/*perfil*/
+.usuario{
+    border-radius: 100%;
+}
+.nome_usuario{
+    margin-top: 20px;
+    font-family: fonte1;
+}
+
+/*tabela*/
+table{
+    border: 2px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    text-align: left;
+    background-color:rgba(0, 0, 0, 0)
+}
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    font-family: fonte1;
+}
+/*area*/
+.frase1{
+    margin-top: 50px;
+    font-family: fonte1;
+}
+.orientacao{
+    margin-top: 40px;
+    font-family: fonte1;
+}
+/*rodape*/
+footer{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.rodape-desc{
+    font-family: fonte1;
+}
+.logo_lucas{
+    width: 200px;
+    margin-left: 1300px;
+    margin-top: 40px;
+}
+.local{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    width: 240px;
+    color: white;
+}
+.local:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+}
+
+

@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: left;
+    background: cover;
+    font-family: fonte1;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+/*cabeçalho*/
+header{
+    display: flex;
+    margin-top: 0;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    font-family: fonte1;
+}
+.inicio{
+    margin-left: 750px;
+    font-size: 26px;
+}
+.inicio:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+/*conteudo_livros*/
+.titulo{
+    margin-top: 50px;
+    font-size: 45px;
+}
+.conteudo_livros{
+    margin-top: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.livro_python:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 rebeccapurple;
+    transform: scale(1.1);
+}
+.livro_ia:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 rebeccapurple;
+    transform: scale(1.1);
+}
+.livro_html:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 rebeccapurple;
+    transform: scale(1.1);
+}
+.livro_css:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 rebeccapurple;
+    transform: scale(1.1);
+}
+h2{
+    margin-left: 25px;
+}
+/*rodape*/
+footer{
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.rodape-desc{
+    font-family: fonte1;
+}
+.logo_lucas{
+    width: 200px;
+    margin-left: 1300px;
+    margin-top: 40px;
+}
+.local{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    width: 240px;
+    color: white;
+}
+.local:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+}

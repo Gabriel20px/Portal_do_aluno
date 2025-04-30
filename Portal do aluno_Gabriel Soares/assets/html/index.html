@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login M-Tech</title>
+    <link rel="stylesheet" href="/assets/css/index_design.css">
+    <style>
+        @font-face {
+        font-family: fonte1;
+        src: url(/assets/fonts/TT\ Rounds\ Neue\ Trial\ Medium\ Italic.ttf);
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="imagem-logo">
+        <img src="/assets/img/LogoMTECH.png" alt="logo" class="logo-MTECH">
+    </div>
+    <div class="inicio">
+        <h1 class="bemvindo"> Seja bem-vindo!</h1>
+        <h3 class="frase1"> Ao portal do aluno M-TECH </h2>
+    <form onsubmit="return validarFormulario()">
+        <label>Name: <input type="text" id="nome" placeholder="Digite o seu nome"></label><br><br>
+        <label>E-mail: <input type="email" id="email" placeholder="Digite o seu email"></label><br><br>
+        <label>Senha: <input type="password" id="senha" placeholder="Digite a sua senha"></label><br><br>
+        <botton class="enviar"><a href="/assets/html/portal.html">Enviar</a></botton>
+    </form> 
+        <p id="mensagemErro" style="color: red;"></p>
+    <footer>
+        <div class="rodape-desc">
+            <p>Entre em contato conosco!</p>
+            <p>Telefone: +55 61 99753342080 </p>
+            <p class="local"><a href="https://maps.app.goo.gl/jVRweX7xHP9tXAQF6">Local: Gama - Setor Leste - DF</a></p>
+            <p>Criado por: Gabriel Soares - Aluno M-tech</p>
+        </div>
+        <div class="rodape-logo">
+            <img src="/assets/img/Logo Branca.png" alt="logoroda2" class="logorodape2">
+        </div>
+    </footer>
+    </div>
+    <script>
+        function validarFormulario() {
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const senha = document.getElementById('senha').value;
+            const mensagemErro = document.getElementById('mensagemErro');
+            mensagemErro.textContent = '';
+            if (!nome) {
+                mensagemErro.textContent = 'Por favor, insira seu nome.';
+                return false;
+            }
+            if (!email) {
+                mensagemErro.textContent = 'Por favor, insira seu email.';
+                return false;
+            }
+            if (!senha || senha.length < 6) {
+                mensagemErro.textContent = 'A senha deve ter pelo menos 6 caracteres.';
+                return false;
+            }
+            alert('Formulário enviado com sucesso!');
+            return true;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: left;
+    background: cover;
+    font-family: fonte1;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+/*cabeçalho*/
+header{
+    display: flex;
+    margin-top: 0;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    font-family: fonte1;
+}
+.inicio{
+    margin-left: 750px;
+    font-size: 26px;
+}
+.inicio:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+/*conteudo - - - - - - - - - -*/
+.titulo{
+    margin-top: 50px;
+}
+/*mudança de email*/
+.mudança_email{
+    font-size: 23px;
+    margin-top: 30px;
+}
+/*mudança de senha*/
+
+.mudança_senha{
+    font-size: 23px;
+    margin-top: 30px;
+}
+/*mudanças universais*/
+.enviar:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 rebeccapurple;
+}
+input:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 0 rebeccapurple;
+}
+input{
+    font-size: 21px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.enviar{
+    color: black;
+    border: 3px solid black;
+    margin-left: 270px;
+    padding: 8px;
+}
+h2{
+    margin-top: 40px
+}
+/*conteudo - - - - - - - - - - - */
+/*rodape*/
+footer{
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.rodape-desc{
+    font-family: fonte1;
+}
+.logo_lucas{
+    width: 200px;
+    margin-left: 1300px;
+    margin-top: 40px;
+}
+.local{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    width: 240px;
+    color: white;
+}
+.local:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+}

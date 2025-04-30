@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background: cover;
+    justify-items: center;
+    font-family: fonte1;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+/*cabeçalho*/
+header{
+    display: flex;
+    margin-top: 0;
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    font-family: fonte1;
+}
+.inicio{
+    margin-left: 750px;
+    font-size: 26px;
+}
+.inicio:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+/*conteudo*/ 
+.conteudo{
+    color: black;
+}
+.bemvindo{
+    margin-top: 45px;
+    font-size: 40px;
+}
+.frase1{
+    margin-bottom: 50px;
+}
+.frase2{
+    margin-top: 50px;
+}
+.frase3{
+    margin-top: 40px;
+}
+.frase4{
+    margin-top: 40px;
+}
+.frase5{
+    margin-top: 60px;
+}
+/*telefones*/
+.telefone{
+    border: 2px solid white;
+    display: flex;
+    width: 240px;
+    color: black;
+}
+.telefone:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 purple;
+}
+/*email*/
+.email{
+    border: 2px solid white;
+    display: flex;
+    width: 240px;
+    color: black;
+}
+.email:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 purple;
+}
+/*local*/
+.local_suporte{
+    border: 2px solid white;
+    display: flex;
+    width: 240px;
+    color: black;
+}
+.local_suporte:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 purple;
+}
+/*rodape*/
+footer{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.rodape-desc{
+    font-family: fonte1;
+}
+.logo_lucas{
+    width: 200px;
+    margin-left: 1300px;
+    margin-top: 40px;
+}
+.local{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    width: 240px;
+    color: white;
+}
+.local:hover{
+    transform: translateY(-4px);
+    transition: 125ms;
+    box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+}
